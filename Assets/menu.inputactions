@@ -1,0 +1,34 @@
+{
+    "name": "meny",
+    "maps": [
+        {
+            "name": "menu",
+            "id": "d7f7a087-4728-49f8-b4ea-2e891138fc3b",
+            "actions": [
+                {
+                    "name": "Menu",
+                    "type": "Button",
+                    "id": "77988129-d243-41aa-8a6e-091092591350",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "de82d387-aee8-46af-824a-e8c7414c729d",
+                    "path": "<XRSimulatedController>{RightHand}/secondaryButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Menu",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}

@@ -1,0 +1,45 @@
+{
+    "name": "inputAction",
+    "maps": [
+        {
+            "name": "customAction",
+            "id": "2b380100-82f1-4bba-be58-c7ac2704cd3e",
+            "actions": [
+                {
+                    "name": "Menu",
+                    "type": "Button",
+                    "id": "499f902c-3bed-47c1-972c-c988ae2e9bc3",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "5c9cc22b-d5bf-4bb2-b1ea-e2f90a246db1",
+                    "path": "<XRController>{RightHand}/secondaryButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Menu",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "d6c85819-8a82-459f-8b1b-a5a737f7600c",
+                    "path": "<Keyboard>/#(1)",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Menu",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
